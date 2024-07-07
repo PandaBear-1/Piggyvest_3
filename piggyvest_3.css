@@ -26,6 +26,8 @@
         position: fixed;
         top: 0px;
         left: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
         background-color: #f2f7f8;
         width: 100%;
         z-index: 999;
@@ -88,11 +90,14 @@
 .diverse h1{
     font-size: 50px;
     font-weight: 700;
+    margin-bottom: 0;
 }
 
-.diverse h3{
+.diverse p{
     font-size: 24px;
     font-weight: normal;
+    margin-top: 5px;
+    line-height: 50px;
 }
 
 .my_investments{
@@ -164,6 +169,11 @@
 
 }
 
+.embed iframe{
+    border: 12px solid white;
+    border-radius: 20px;
+}
+
 
 /* Section Testimonials */
 
@@ -172,10 +182,11 @@ section.testimonials{
     display: flex;
     margin-top: 0px;
     padding-top: 150px;
+    padding-left: 40px;
     background-color: #f2f7f8;
 }
 section .testimonial_img{
-    width: 35%;
+    width: 38%;
 }
 
 .review_profiles_container{
@@ -186,7 +197,7 @@ section .testimonial_img{
 }
 
 .review_profiles_container h2{
-    font-size: 30px;
+    font-size: 35px;
     width: 450px;
     margin-left: 70px;
     margin-top: -5px;
@@ -208,24 +219,6 @@ section .testimonial_img{
     justify-content: center;
     font-size: 18px;
 }
-
-
-
-
-/* .button_download{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
-
-button{
-    margin: 0 8px;
-    background-color: #122231;
-    color: white;
-    border-radius: 12px;
-    padding: 16px 30px;
-} */
 
 
 
