@@ -590,13 +590,11 @@ section .testimonial_img{
         padding-left: 50px;
         padding-right: 50px;
         justify-content: center;
-        border: 1px solid black;
-        /* border-bottom: 1px solid  rgba(61, 79, 96, .1); */
+       
+        border-bottom: 1px solid  rgba(61, 79, 96, .1);
     }
 
-    .extra *{
-        border: 1px solid black;
-    }
+   
     .extra a{
         text-decoration: none;
         color: #3d4f60;
@@ -650,7 +648,6 @@ section .testimonial_img{
     margin: 0;
     padding-bottom: 0;
     padding-top: 20px;
-    border: 1px solid black;
     
 }
 .last p{
