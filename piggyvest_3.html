@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="piggyvest_3.css">
+        <link rel="stylesheet" href="aos-master/dist/aos.css">
     </head>
     <body>
         <div class="body_container">
@@ -40,8 +41,8 @@
 
 
 
-            <section>
-                <div class="container">
+            <section style="margin-top: 200px;">
+                <div class="container" id="top">
 
                     <div style="margin-top: 6rem;" class="text">
                         <h1>The Better Way to Save & Invest</h1>
@@ -94,7 +95,7 @@
 
 
             <section class="first_grid">
-                <div class="first_grid_text">
+                <div class="first_grid_text"  data-aos="fade-up" data-aos-duration="1000">
                     <h1>
                         5 ways to build your savings 
                     </h1>
@@ -343,6 +344,12 @@
                 <p style="width: 450px; margin-bottom: 20px;">PV Capital Limited is a fund manager duly licensed by the Securities and Exchange Commission (SEC) of Nigeria.</p>
                 <p style="color: #083e9e; font-weight: normal;">2016 - 2024 PiggyTech Global Limited - RC 1405222</p>
             </section>
+
+            <a id="home_button" href="#top">^</a>
+
         </div>
+        <script src="aos-master/dist/aos.js">
+            AOS.init();
+        </script>
     </body>
 </html>
