@@ -94,30 +94,104 @@
     
     .sub_menu_1{
         display: none;
-        width: 500px;
-        height: 200px;
+        height: auto;
         margin-top: -10px;
-        padding-top: 30px;
     }
 
+    .sub_menu_1 ul li a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
     .nav_links li:hover .sub_menu_1{
         display: block;
         position: absolute;
-        background-color: #f2f2f2;
+        background-color: #fff;
         color: #0c1825;
-        margin-left: -15px;
+        width: 500px;
+        margin-left: -55px;
+        margin-top: -8px;
+        padding: 30px 60px 30px 0px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+        border-radius: 8px;
+    }
+
+    .nav_links li:hover .sub_menu_1 ul{
+        margin: 10px;
+        display: block;
     }
 
     .nav_links li:hover .sub_menu_1 li{
         list-style-type: none;
-        margin: 0;
-        padding: 0;
+        width: 150px;
+        padding: 15px;
+        background-color: transparent;
+        text-align: left;
+        margin-left: -35px;
     }
 
 
     .nav_links li:hover .sub_menu_1 li a{
         margin-bottom: 10px;
+        text-align: left;
     }
+
+    .sub_menu_2{
+        width: 500px;
+        height: 300px;
+        margin-top: -10px;
+        display: none;
+        margin-left: -50px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+        border-radius: 8px;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+
+    .sub_menu_2 ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav_links li:hover .sub_menu_2{
+        display: block;
+        position: absolute;
+        background-color: #fff;
+    }
+
+    .nav_links li:hover .sub_menu_2 li{
+        list-style-type: none;
+        padding: 15px;
+    }
+    .nav_links li .sub_menu_2 ul li a{
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 25px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .nav_links li .sub_menu_2 ul li a span{
+        width: 100px;
+    }
+
+    .nav_links li .sub_menu_2 ul div{
+        display: flex; 
+        justify-content: space-around; 
+        align-items: left;
+        margin-left: -30px;
+        padding: 0;
+        
+    }
+
+    /* .nav_links li:hover .sub_menu_2 li a{
+        align-content: left
+        ;
+    } */
+
 /* Section First_section */
 
 
